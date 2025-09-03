@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo CSS</title>
+  <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div>
+        <h1>Resumo CSS - Regras Básicas</h1>
+        <img src="iksa.jpg" alt="um computador">
+        <section>
+            <h2>1. Regra da Cascata</h2>
+            <p>Ordem: <b>importância</b> → <b>especificidade</b> → <b>último código vence</b>.</p>
+        </section>
+
+        <section>
+            <h2>2. Especificidade</h2>
+            <ul>
+            <li><b>Tag</b>: menor peso</li>
+            <li><b>Classe</b>: médio</li>
+            <li><b>ID</b>: maior peso</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Combinação de seletores</h2>
+            <ul>
+            <li>primeiro h1 → qualquer h1 dentro de .primeiro</li>
+            <li>primeira > h1 → apenas filhos diretos</li>
+            <li>primeira h1 + h1 → h1 logo após outro h1</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Pseudo-classes</h2>
+            <ul>
+            <li>first-child → primeiro filho</li>
+            <li>last-child → último filho</li>
+            <li>nth-child(n) → filho posição n</li>
+            <li>nth-of-type(n) → n-ésimo do mesmo tipo</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Display inline vs block</h2>
+            <p><b>Inline:</b> ocupa só o conteúdo, não aceita width/height.</p>
+            <p><b>Block:</b> ocupa a linha inteira, aceita width/height e todas margens.</p>
+        </section>
+
+        <section>
+            <h2>6. Padrão Inline e Block</h2>
+            <p><b>Inline:</b> a, span, strong, em</p>
+            <p><b>Block:</b> div, p, h1-h6, section</p>
+        </section>
+
+        <section>
+            <h2>7. Margin, Padding e Border</h2>
+            <p><b>Margin:</b> espaço externo | <b>Padding:</b> espaço interno | <b>Border:</b> contorno</p>
+            <p><b>Shorthand:</b></p>
+            <ul>
+            <li>1 valor = todos lados</li>
+            <li>2 valores = vertical | horizontal</li>
+            <li>3 valores = top | horizontal | bottom</li>
+            <li>4 valores = top | right | bottom | left</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Box-sizing</h2>
+            <p>box-sizing: border-box; → largura inclui padding + border.</p>
+        </section>
+    </div>
+</body>
+</html>
